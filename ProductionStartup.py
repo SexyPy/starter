@@ -60,8 +60,8 @@ def black():
 
 
 def main():
-    autoflake()
     black()
+    autoflake()
     isort()
     mypy()
     requirement()
