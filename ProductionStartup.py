@@ -62,6 +62,7 @@ def black():
 def main():
     black()
     autoflake()
+    black()
     isort()
     mypy()
     requirement()
