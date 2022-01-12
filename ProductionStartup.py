@@ -39,7 +39,7 @@ def requirement():
 
 
 def mypy():
-    subprocess.run(["mypy", activeFolder])
+    subprocess.run(["mypy", activeFolder, "--install-types"])
     splitter()
 
 
