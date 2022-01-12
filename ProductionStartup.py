@@ -39,7 +39,7 @@ def requirement():
 
 
 def mypy():
-    subprocess.run(["mypy", activeFolder, "--install-types", "--non-interactive"])
+    subprocess.run(["mypy", activeFolder, "--install-types", "--non-interactive", "--follow-imports"])
     splitter()
 
 
